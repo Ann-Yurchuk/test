@@ -1,19 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Container } from './Container/Container';
+import { Header } from './Header/Header';
+import { InfoBox } from './Info/Info.styled';
 
-export class App extends Component {
-  
-  render() {
-    return (
-      <div
-        style={{
-          height: '100vh',
-          display: 'flex',
-          justifyContent: 'column',
-          alignItems: 'center',
-          fontSize: 20,
-          color: '#010101',
-        }}
-      ></div>
-    );
-  }
-}
+export const App = () => {
+  return (
+    <Container>
+      <Header />
+      <InfoBox />
+    </Container>
+  );
+};
