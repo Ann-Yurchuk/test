@@ -1,27 +1,47 @@
-import { MenuBox, MenuList, MenuItem, MenuBtn } from './Menu.styled';
+import {
+  MenuBox,
+  MenuList,
+  MenuItem,
+  MenuBtn,
+  IconHouse,
+  IconClipboardText,
+  IconHeart,
+  IconChatTeardropDots,
+  IconUser,
+} from './Menu.styled';
 
 export const Menu = () => {
   return (
     <MenuBox>
       <MenuList>
         <MenuItem>
-          <MenuBtn></MenuBtn>
+          <MenuBtn>
+            <IconHouse />
+          </MenuBtn>
         </MenuItem>
         <MenuItem>
           {' '}
-          <MenuBtn></MenuBtn>
+          <MenuBtn>
+            <IconClipboardText />
+          </MenuBtn>
         </MenuItem>
         <MenuItem>
           {' '}
-          <MenuBtn></MenuBtn>
+          <MenuBtn>
+            <IconHeart />
+          </MenuBtn>
         </MenuItem>
         <MenuItem>
           {' '}
-          <MenuBtn></MenuBtn>
+          <MenuBtn>
+            <IconChatTeardropDots />
+          </MenuBtn>
         </MenuItem>
         <MenuItem>
           {' '}
-          <MenuBtn></MenuBtn>
+          <MenuBtn>
+            <IconUser />
+          </MenuBtn>
         </MenuItem>
       </MenuList>
     </MenuBox>

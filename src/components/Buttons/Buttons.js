@@ -4,15 +4,15 @@ export const Buttons = () => {
   return (
     <ButtonList>
       <ButtonItem>
-        <Button>Актер</Button>
+        <Button>актер</Button>
       </ButtonItem>
       <ButtonItem>
         {' '}
-        <Button>Игры</Button>
+        <Button>игры</Button>
       </ButtonItem>
       <ButtonItem>
         {' '}
-        <Button>Пицца</Button>
+        <Button>пицца</Button>
       </ButtonItem>
     </ButtonList>
   );
