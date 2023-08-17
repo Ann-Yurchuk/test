@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.d7849dba.css",
-    "main.js": "/test/static/js/main.38e983bc.js",
+    "main.css": "/test/static/css/main.91409721.css",
+    "main.js": "/test/static/js/main.0c592253.js",
     "static/media/man@2x.jpg": "/test/static/media/man@2x.f96ef6987597ebfcb69a.jpg",
     "static/media/man.jpg": "/test/static/media/man.63d6e00fd545f537b36a.jpg",
-    "static/media/bell-ringing.svg": "/test/static/media/bell-ringing.135bed91c20d9fd8af2dc1e03419679a.svg",
+    "static/media/ChatTeardropDots.svg": "/test/static/media/ChatTeardropDots.1bcc7e07a32f302919d507b9c1bfcf93.svg",
+    "static/media/BellRinging.svg": "/test/static/media/BellRinging.135bed91c20d9fd8af2dc1e03419679a.svg",
+    "static/media/ClipboardText.svg": "/test/static/media/ClipboardText.f232af6007ee7ca691a578ef7ab58951.svg",
     "index.html": "/test/index.html",
-    "static/media/sliders-horizontal.svg": "/test/static/media/sliders-horizontal.c51dc1201738a1ebdd5bf2399a95f127.svg",
-    "main.d7849dba.css.map": "/test/static/css/main.d7849dba.css.map",
-    "main.38e983bc.js.map": "/test/static/js/main.38e983bc.js.map"
+    "static/media/House.svg": "/test/static/media/House.879c68058fa0d3737e4c58d4acfa2394.svg",
+    "static/media/SlidersHorizontal.svg": "/test/static/media/SlidersHorizontal.c51dc1201738a1ebdd5bf2399a95f127.svg",
+    "static/media/UserIcon.svg": "/test/static/media/UserIcon.514412ef0ea4bd7520dbc16187cbb3f3.svg",
+    "static/media/Heart.svg": "/test/static/media/Heart.f0c07eaf27a8431ea7007802f5ffa629.svg",
+    "static/media/Heart2.svg": "/test/static/media/Heart2.d011b10dc3d1cd198b6098e074aca944.svg",
+    "static/media/Close.svg": "/test/static/media/Close.9a862ce1f2aa83de64efd2ee6c941a15.svg",
+    "main.91409721.css.map": "/test/static/css/main.91409721.css.map",
+    "main.0c592253.js.map": "/test/static/js/main.0c592253.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7849dba.css",
-    "static/js/main.38e983bc.js"
+    "static/css/main.91409721.css",
+    "static/js/main.0c592253.js"
   ]
 }
