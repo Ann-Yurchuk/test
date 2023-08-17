@@ -3,7 +3,7 @@ import { ReactComponent as House } from '../../assets/icons/House.svg';
 import { ReactComponent as ClipboardText } from '../../assets/icons/ClipboardText.svg';
 import { ReactComponent as Heart } from '../../assets/icons/Heart2.svg';
 import { ReactComponent as ChatTeardropDots } from '../../assets/icons/ChatTeardropDots.svg';
-import { ReactComponent as User } from '../../assets/icons/User.svg';
+import { ReactComponent as UserIcon } from '../../assets/icons/User.svg';
 
 export const MenuBox = styled.div`
   width: 361px;
@@ -104,7 +104,7 @@ export const IconChatTeardropDots = styled(ChatTeardropDots)`
   }
 `;
 
-export const IconUser = styled(User)`
+export const IconUser = styled(UserIcon)`
   display: inline-block;
   cursor: pointer;
   width: 32px;
