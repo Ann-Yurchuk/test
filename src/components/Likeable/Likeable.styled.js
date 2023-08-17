@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 import backgroundLeft from '../../assets/img/background-left.png';
-import backgroundLeft2 from '../../assets/img/background-left@2x.png';
+// import backgroundLeft2 from '../../assets/img/background-left@2x.png';
 import backgroundRight from '../../assets/img/background-right.png';
-import backgroundRight2 from '../../assets/img/background-right@2x.png';
+// import backgroundRight2 from '../../assets/img/background-right@2x.png';
 import { ReactComponent as Heart } from '../../assets/icons/Heart.svg';
 import { ReactComponent as None } from '../../assets/icons/Close.svg';
 
