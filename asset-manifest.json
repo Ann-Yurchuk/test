@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.91409721.css",
-    "main.js": "/test/static/js/main.0c592253.js",
+    "main.css": "/test/static/css/main.a964af4b.css",
+    "main.js": "/test/static/js/main.6d24804a.js",
     "static/media/man@2x.jpg": "/test/static/media/man@2x.f96ef6987597ebfcb69a.jpg",
     "static/media/man.jpg": "/test/static/media/man.63d6e00fd545f537b36a.jpg",
     "static/media/ChatTeardropDots.svg": "/test/static/media/ChatTeardropDots.1bcc7e07a32f302919d507b9c1bfcf93.svg",
@@ -14,11 +14,11 @@
     "static/media/Heart.svg": "/test/static/media/Heart.f0c07eaf27a8431ea7007802f5ffa629.svg",
     "static/media/Heart2.svg": "/test/static/media/Heart2.d011b10dc3d1cd198b6098e074aca944.svg",
     "static/media/Close.svg": "/test/static/media/Close.9a862ce1f2aa83de64efd2ee6c941a15.svg",
-    "main.91409721.css.map": "/test/static/css/main.91409721.css.map",
-    "main.0c592253.js.map": "/test/static/js/main.0c592253.js.map"
+    "main.a964af4b.css.map": "/test/static/css/main.a964af4b.css.map",
+    "main.6d24804a.js.map": "/test/static/js/main.6d24804a.js.map"
   },
   "entrypoints": [
-    "static/css/main.91409721.css",
-    "static/js/main.0c592253.js"
+    "static/css/main.a964af4b.css",
+    "static/js/main.6d24804a.js"
   ]
 }
