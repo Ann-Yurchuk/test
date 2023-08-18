@@ -25,7 +25,7 @@ export const List = styled.ul`
 
     @media screen and (min-width: 768px) {
       top: 37px;
-      right: 58%;
+      right: 57%;
       width: 42px;
       height: 10px;
     }
@@ -54,7 +54,7 @@ export const Item = styled.li`
     content: '';
     position: absolute;
     top: 10px;
-    left: 25%;
+    right: -165px;
     z-index: 2;
     display: block;
     width: 6px;
@@ -64,13 +64,14 @@ export const Item = styled.li`
 
     @media screen and (min-width: 768px) {
       top: 13px;
+      right: -335px;
       width: 10px;
       height: 10px;
     }
 
     @media screen and (min-width: 1440px) {
       top: 15px;
-      left: -330px;
+      left: +300px;
       width: 12px;
       height: 12px;
     }

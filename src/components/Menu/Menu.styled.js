@@ -198,9 +198,6 @@ export const IconUser = styled(UserIcon)`
 `;
 
 export const Box = styled.div`
-  width: 100vw;
-  height: 391px;
-  padding: 0 16px 20px 16px;
   position: absolute;
   z-index: 1;
   top: 461px;
@@ -208,6 +205,9 @@ export const Box = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   gap: 30px;
+  width: 100vw;
+  height: 391px;
+  padding: 0 16px 20px 16px;
   background: transparent;
   background-image: linear-gradient(
     to bottom,
@@ -227,11 +227,11 @@ export const Box = styled.div`
   }
 
   @media screen and (min-width: 1440px) {
-    height: 510px;
     top: 400px;
-    width: 720px;
-    padding: 0 50px 50px 120px;
     gap: 190px;
+    width: 720px;
+    height: 510px;
+    padding: 0 50px 50px 120px;
     background-image: none;
   }
 `;

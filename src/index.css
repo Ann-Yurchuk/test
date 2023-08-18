@@ -10,6 +10,9 @@
   --background-slide: rgba(255, 255, 255, 1);
   --color-slide: rgba(126, 52, 209, 1);
   --btn-background: rgba(26, 26, 26, 0.6);
+  --form-background: #293e52;
+  --form-btn: #ffbf00;
+  --error: #d00f0f;
 }
 
 html {
@@ -62,6 +65,7 @@ ol {
 }
 
 button {
+  display: block;
   cursor: pointer;
   border: none;
 }

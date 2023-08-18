@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { ReactComponent as SlidersHorizontal } from '../../assets/icons/SlidersHorizontal.svg';
 import { ReactComponent as BellRinging } from '../../assets/icons/BellRinging.svg';
+import { ReactComponent as CloseSmall } from '../../assets/icons/CloseSmall.svg';
 
 export const HeaderBox = styled.header`
   display: flex;
@@ -39,8 +40,55 @@ export const Btn = styled.button`
   background-color: transparent;
 `;
 
+export const OpenModalButton = styled.button`
+  position: absolute;
+  z-index: 10;
+  width: 28px;
+  height: 28px;
+  top: 22px;
+  left: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media (min-width: 768px) {
+    width: 42px;
+    height: 42px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 52px;
+    height: 52px;
+  }
+`;
+
 export const IconSlidersHorizontal = styled(SlidersHorizontal)`
-  display: inline;
+  display: inline-block;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  stroke: var(--primary-icon);
+
+  &:active,
+  &:focus,
+  &:hover * {
+    stroke: var(--active-color);
+  }
+
+  @media (min-width: 768px) {
+    width: 42px;
+    height: 42px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 52px;
+    height: 52px;
+  }
+`;
+
+export const IconBellRinging = styled(BellRinging)`
+  display: inline-block;
   cursor: pointer;
   width: 28px;
   height: 28px;
@@ -70,33 +118,26 @@ export const IconSlidersHorizontal = styled(SlidersHorizontal)`
   }
 `;
 
-export const IconBellRinging = styled(BellRinging)`
-  display: inline;
+export const IconClose = styled(CloseSmall)`
+  display: inline-block;
   cursor: pointer;
   width: 28px;
   height: 28px;
-  stroke: var(--primary-icon);
+  fill: var(--primary-icon);
 
   &:active,
   &:focus,
   &:hover * {
-    stroke: var(--active-color);
-    transform: translateY(-2px);
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-      background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-      stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
+    fill: var(--active-color);
   }
 
   @media (min-width: 768px) {
-    width: 42px;
-    height: 42px;
+    width: 34px;
+    height: 34px;
   }
 
   @media (min-width: 1440px) {
-    width: 52px;
-    height: 52px;
+    width: 35px;
+    height: 35px;
   }
 `;

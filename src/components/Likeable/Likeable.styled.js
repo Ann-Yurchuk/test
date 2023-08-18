@@ -21,6 +21,7 @@ export const Box = styled.div`
     height: 1px;
   }
 `;
+
 export const BoxLeft = styled.div`
   position: absolute;
   z-index: 5;
