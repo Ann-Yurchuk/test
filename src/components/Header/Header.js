@@ -1,3 +1,4 @@
+import { Slider } from 'components/Slider/Slider';
 import {
   HeaderBox,
   IconSlidersHorizontal,
@@ -11,6 +12,7 @@ export const Header = () => {
       <Btn type="button">
         <IconSlidersHorizontal />
       </Btn>
+      <Slider />
       <Btn type="button">
         <IconBellRinging />
       </Btn>

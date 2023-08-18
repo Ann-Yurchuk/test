@@ -8,7 +8,15 @@ import { ReactComponent as UserIcon } from '../../assets/icons/UserIcon.svg';
 export const MenuBox = styled.div`
   width: 361px;
   border-radius: 100px;
-  background-color: rgba(26, 26, 26, 0.9);
+  background-color: var(--background-color);
+
+  @media screen and (min-width: 768px) {
+    width: 421px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 521px;
+  }
 `;
 
 export const MenuList = styled.ul`
@@ -17,6 +25,14 @@ export const MenuList = styled.ul`
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 50px;
+  }
 `;
 
 export const MenuItem = styled.li`
@@ -32,12 +48,26 @@ export const MenuItem = styled.li`
     width: 22px;
     height: 4px;
     border-radius: 50px;
-    background-color: rgba(126, 52, 209, 1);
+    background-color: var(--active-color);
     opacity: 0;
     -webkit-transform: translateY(-28%);
     transform: translateY(-28%);
     -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 768px) {
+      bottom: -10px;
+      left: 20%;
+      width: 32px;
+      height: 8px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      bottom: -15px;
+      left: 15%;
+      width: 42px;
+      height: 10px;
+    }
   }
 
   &:hover::after,
@@ -62,6 +92,16 @@ export const IconHouse = styled(House)`
   &:hover * {
     fill: var(--primary-icon);
   }
+
+  @media screen and (min-width: 768px) {
+    width: 42px;
+    height: 42px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 52px;
+    height: 52px;
+  }
 `;
 
 export const IconClipboardText = styled(ClipboardText)`
@@ -75,6 +115,16 @@ export const IconClipboardText = styled(ClipboardText)`
   &:hover * {
     fill: var(--primary-icon);
   }
+
+  @media screen and (min-width: 768px) {
+    width: 42px;
+    height: 42px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 52px;
+    height: 52px;
+  }
 `;
 
 export const IconHeart = styled(Heart)`
@@ -87,6 +137,16 @@ export const IconHeart = styled(Heart)`
   &:focus,
   &:hover * {
     fill: var(--primary-icon);
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 42px;
+    height: 42px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 52px;
+    height: 52px;
   }
 `;
 
@@ -102,6 +162,16 @@ export const IconChatTeardropDots = styled(ChatTeardropDots)`
     fill: white;
     fill: var(--primary-icon);
   }
+
+  @media screen and (min-width: 768px) {
+    width: 42px;
+    height: 42px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 52px;
+    height: 52px;
+  }
 `;
 
 export const IconUser = styled(UserIcon)`
@@ -114,6 +184,16 @@ export const IconUser = styled(UserIcon)`
   &:focus,
   &:hover * {
     fill: var(--primary-icon);
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 42px;
+    height: 42px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 52px;
+    height: 52px;
   }
 `;
 
@@ -134,4 +214,24 @@ export const Box = styled.div`
     rgba(26, 26, 26, 0),
     rgba(26, 26, 26, 0.8)
   );
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    height: 563px;
+    padding: 0 18px 24px 18px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    height: 510px;
+    top: 400px;
+    width: 720px;
+    padding: 0 50px 50px 120px;
+    gap: 190px;
+    background-image: none;
+  }
 `;

@@ -15,31 +15,31 @@ export const Menu = () => {
     <MenuBox>
       <MenuList>
         <MenuItem>
-          <MenuBtn>
+          <MenuBtn type="button">
             <IconHouse />
           </MenuBtn>
         </MenuItem>
         <MenuItem>
           {' '}
-          <MenuBtn>
+          <MenuBtn type="button">
             <IconClipboardText />
           </MenuBtn>
         </MenuItem>
         <MenuItem>
           {' '}
-          <MenuBtn>
+          <MenuBtn type="button">
             <IconHeart />
           </MenuBtn>
         </MenuItem>
         <MenuItem>
           {' '}
-          <MenuBtn>
+          <MenuBtn type="button">
             <IconChatTeardropDots />
           </MenuBtn>
         </MenuItem>
         <MenuItem>
           {' '}
-          <MenuBtn>
+          <MenuBtn type="button">
             <IconUser />
           </MenuBtn>
         </MenuItem>

@@ -12,15 +12,33 @@ export const ContainerStyle = styled.div`
   background-repeat: no-repeat;
   object-fit: cover;
 
-  /* @media screen and (min-width: 768px) {
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('${background2}');
+  }
+
+  @media screen and (min-width: 768px) {
     max-width: 768px;
-    padding: 0 32px;
-    background-image: url(${background2});
+    background-image: url('${background2}');
+    background-position: left 0;
+    background-size: 118%;
+    background-repeat: no-repeat;
+    object-fit: cover;
   }
 
   @media screen and (min-width: 1440px) {
     max-width: 1440px;
-    padding: 0 100px;
-    background-image: url(${background2});
-  } */
+    background-image: linear-gradient(
+        to bottom,
+        rgba(26, 26, 26, 0),
+        rgba(26, 26, 26, 0.6)
+      ),
+      url('${background2}');
+    background-position: right 7px top 10px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
 `;
