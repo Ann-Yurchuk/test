@@ -156,9 +156,9 @@ export const IconChatTeardropDots = styled(ChatTeardropDots)`
   width: 32px;
   height: 32px;
 
-  :active,
-  :focus,
-  :hover * {
+  &:active,
+  &:focus,
+  &:hover * {
     fill: white;
     fill: var(--primary-icon);
   }
